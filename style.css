@@ -26,10 +26,10 @@ header {
     z-index: 1000;
 }
 
-header a { color: rgb(197, 180, 180); text-decoration: none; margin-left: 20px; font-weight: bold; }
+header a { color: rgb(40, 32, 127); text-decoration: none; margin-left: 20px; font-weight: bold; }
 section {
     padding: 60px 10%; 
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #dbafaf;
 }
 
 
@@ -39,14 +39,14 @@ section {
 #skills { background: #eaf2f8; }
 #projects { background: #f4ecf7; }
 #internship { background: #fef9e7; }
-#contact { background: #2c3e50; color: white; }
+#contact { background: #83afdc; color: white; }
 
 .home-image img {
     width: 200px; 
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #ac81c4;
+    border: 5px solid #cfb5cb;
 }
 
 .heading {
@@ -64,7 +64,7 @@ section {
 }
 .edu-table th, .edu-table td {
     padding: 15px;
-    border: 1px solid #e5e9ed;
+    border: 1px solid #c3d1e0;
 }
 .about-card {
     background: white;
@@ -108,8 +108,10 @@ section {
     font-size: 0.95rem;
     color: #bfadc6;
 }
-
+    
 
 @media (max-width: 768px) {
     #home { flex-direction: column; text-align: center; }
 }
+
+
